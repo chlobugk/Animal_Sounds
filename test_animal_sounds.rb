@@ -36,17 +36,17 @@ class TestAnimalSounds < MiniTest::Test
 
 	def test_what_the_cat_says
 		animal = Cat.new('Whiskers')
-		assert_equal('Whiskers says meow', animal.get_sound)
+		assert_equal('Whiskers says meow.', animal.get_sound)
 	end
 
 	def test_what_the_dog_says
 		animal = Dog.new('Copper')
-		assert_equal('Copper says woof', animal.get_sound)
+		assert_equal('Copper says woof.', animal.get_sound)
 	end
 
 	def test_what_the_fox_says
 		animal = Fox.new('Swiper')
-		assert_equal('Swiper says haha', animal.get_sound)
+		assert_equal('Swiper says haha.', animal.get_sound)
 	end
 
 end
